@@ -8,7 +8,7 @@
 </head>
 <body>
     <h2>Introduzca los datos que se le piden a continuación</h2>
-    <form action="" method="post">
+    <form action="capturarDatos.php" method="post">
         <label for="nombre">Nombre del usuario:</label>
         <input type="text" name="nombre" id="nombre">
         <label for="direccion">Dirección:</label>
