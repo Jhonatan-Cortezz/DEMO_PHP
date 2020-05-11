@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Prueba de GitHub Forma gráfica</title>
 </head>
 <body>
-    <h1>Hello Word</h1>
+    <h2>Introduzca los datos que se le piden a continuación</h2>
+    <form action="" method="post">
+        <label for="nombre">Nombre del usuario:</label>
+        <input type="text" name="nombre" id="nombre">
+        <label for="direccion">Dirección:</label>
+        <input type="text" name="direccion" id="direccion">
+        <input type="submit" value="Enviar">
+    </form>
 </body>
 </html>
